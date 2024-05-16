@@ -1,0 +1,45 @@
+
+html {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    /*background-color: #ffb5b5 ; */
+}
+
+
+
+body {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 80px;
+    /*background-repeat: no-repeat;
+    background-position: cover;*/
+    background-size: 100% 130%;
+    font-size: bold;
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 20%;
+}
+
+input {
+    background-color: rgb(218, 225, 231);
+    border-radius: 30px;
+    width: 70%;
+    border-color:rgb(218, 225, 231) ;
+}
+label {
+    color: rgb(199, 183, 93);
+}
+
+.locaTions {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(50, 124, 90);
+    border-radius: 1rem;
+    padding: 5px 5px;
+}

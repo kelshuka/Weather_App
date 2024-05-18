@@ -67,10 +67,10 @@ fetch('https://api.weatherapi.com/v1/current.json?key=d06df2682f2e4645b991953592
                 const te = "https:" + resIcon;
                 img.src = te;
 
+                ce.innerText = response.current.temp_c;
                 
 
                 butts.addEventListener("click", () => {
-                    ce.innerText = response.current.temp_c;
                     
                     if (ce.innerText == response.current.temp_c) {
                         ce.innerText = response.current.temp_f

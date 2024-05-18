@@ -10,7 +10,7 @@
         <script src="javascript.js" defer ></script>
 
         <div class="container">
-
+ 
             <div class="searcH">
                 <label for="search" > Search:</label>
                 <input type="text" id="search" placeholder="Bandundu, Lagos, London, ...">
@@ -18,8 +18,18 @@
             <p></p>
 
             <div class="locaTions">
-                <div id="locaTion">Show new image</div>
-                <button>Toggle Temp</button>
+                <div id="country"></div>
+                <div style="display: flex; gap: 15px;">   
+                    <div id="name" style="font-weight: bold;"></div><span class="tiM"></span>     
+                </div>
+                <button> <sup>o</sup>C | F</button>
+                <div class="temP" style="display: flex; gap: 5px;">
+                    <div id="ce" ></div>
+                    <div id="Fa" style="display: none;"></div>
+                </div>
+                <div id="condition"></div>
+
+                <img src='' />
             </div>
             <p></p>
         </div>
